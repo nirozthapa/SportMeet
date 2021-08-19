@@ -363,52 +363,63 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="so3-4F-KRc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ONC-PX-IdD" customClass="CustomNavView" customModule="SydneySporMeet" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="49" width="414" height="62.666666666666657"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="As0-oF-GPE">
-                                        <rect key="frame" x="20" y="131.66666666666669" width="374" height="744.33333333333326"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="As0-oF-GPE">
+                                        <rect key="frame" x="20" y="64" width="374" height="792"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sMF-PH-Gaf" customClass="RoundedView" customModule="SydneySporMeet" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrZ-eF-k4t" customClass="RoundedView" customModule="SydneySporMeet" customModuleProvider="target">
-                                                        <rect key="frame" x="141.66666666666666" y="50" width="90.666666666666657" height="100"/>
+                                                        <rect key="frame" x="149.66666666666666" y="30" width="74.666666666666657" height="140"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3zO-lr-M45">
-                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <rect key="frame" x="-32.666666666666657" y="0.0" width="140" height="140"/>
+                                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="3zO-lr-M45" secondAttribute="height" multiplier="1:1" id="Qyb-qU-86q"/>
+                                                                    <constraint firstAttribute="width" secondItem="3zO-lr-M45" secondAttribute="height" multiplier="1:1" id="A0f-Q6-k8k"/>
                                                                 </constraints>
                                                             </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niroj Thapa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P17-fw-mQv">
+                                                                <rect key="frame" x="-11.333333333333314" y="144" width="97.666666666666671" height="23"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstItem="3zO-lr-M45" firstAttribute="leading" secondItem="wrZ-eF-k4t" secondAttribute="leading" id="daO-7D-e7n"/>
+                                                            <constraint firstItem="3zO-lr-M45" firstAttribute="centerY" secondItem="wrZ-eF-k4t" secondAttribute="centerY" id="Kge-fj-aqr"/>
+                                                            <constraint firstItem="P17-fw-mQv" firstAttribute="top" secondItem="3zO-lr-M45" secondAttribute="bottom" constant="4" id="OCd-Tr-otZ"/>
+                                                            <constraint firstItem="3zO-lr-M45" firstAttribute="centerX" secondItem="wrZ-eF-k4t" secondAttribute="centerX" id="gyg-aL-y4v"/>
                                                             <constraint firstAttribute="bottom" secondItem="3zO-lr-M45" secondAttribute="bottom" id="lGb-jo-ng6"/>
+                                                            <constraint firstItem="P17-fw-mQv" firstAttribute="centerX" secondItem="3zO-lr-M45" secondAttribute="centerX" id="upj-3t-nt5"/>
                                                             <constraint firstItem="3zO-lr-M45" firstAttribute="top" secondItem="wrZ-eF-k4t" secondAttribute="top" id="wcX-Fc-2PN"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="0.0"/>
+                                                            </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.35174561069999999" green="0.87641339429999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstItem="wrZ-eF-k4t" firstAttribute="centerX" secondItem="sMF-PH-Gaf" secondAttribute="centerX" id="6o0-kq-0e2"/>
-                                                    <constraint firstItem="wrZ-eF-k4t" firstAttribute="width" secondItem="sMF-PH-Gaf" secondAttribute="width" multiplier="0.241546" id="9nb-v0-3wX"/>
+                                                    <constraint firstItem="wrZ-eF-k4t" firstAttribute="width" secondItem="sMF-PH-Gaf" secondAttribute="width" multiplier="0.2" id="9nb-v0-3wX"/>
                                                     <constraint firstItem="wrZ-eF-k4t" firstAttribute="centerY" secondItem="sMF-PH-Gaf" secondAttribute="centerY" id="B1f-Jt-q0L"/>
-                                                    <constraint firstItem="wrZ-eF-k4t" firstAttribute="height" secondItem="sMF-PH-Gaf" secondAttribute="height" multiplier="0.5" id="HuV-Tr-x5r"/>
+                                                    <constraint firstItem="wrZ-eF-k4t" firstAttribute="height" secondItem="sMF-PH-Gaf" secondAttribute="height" multiplier="0.7" id="HuV-Tr-x5r"/>
                                                     <constraint firstAttribute="height" constant="200" id="w8J-Pl-zAv"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jTQ-sW-eyz">
-                                                <rect key="frame" x="0.0" y="200.00000000000006" width="374" height="544.33333333333348"/>
+                                                <rect key="frame" x="0.0" y="220" width="374" height="572"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </tableView>
                                         </subviews>
@@ -416,14 +427,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="ONC-PX-IdD" firstAttribute="height" secondItem="so3-4F-KRc" secondAttribute="height" multiplier="0.07" id="CJs-4U-81s"/>
+                                    <constraint firstItem="As0-oF-GPE" firstAttribute="top" secondItem="YaW-Pe-HbX" secondAttribute="top" constant="20" id="40t-QF-WUc"/>
                                     <constraint firstItem="As0-oF-GPE" firstAttribute="trailing" secondItem="YaW-Pe-HbX" secondAttribute="trailing" constant="-20" id="TQn-rQ-Ac8"/>
-                                    <constraint firstItem="ONC-PX-IdD" firstAttribute="width" secondItem="so3-4F-KRc" secondAttribute="width" id="TnD-fx-y4q"/>
-                                    <constraint firstItem="ONC-PX-IdD" firstAttribute="top" secondItem="YaW-Pe-HbX" secondAttribute="top" constant="5" id="ZPN-pg-3aC"/>
-                                    <constraint firstItem="ONC-PX-IdD" firstAttribute="leading" secondItem="YaW-Pe-HbX" secondAttribute="leading" id="cbP-qO-Sns"/>
-                                    <constraint firstItem="As0-oF-GPE" firstAttribute="top" secondItem="ONC-PX-IdD" secondAttribute="bottom" constant="20" id="fp9-3k-6N1"/>
                                     <constraint firstItem="As0-oF-GPE" firstAttribute="leading" secondItem="YaW-Pe-HbX" secondAttribute="leading" constant="20" id="ozJ-iR-eJr"/>
-                                    <constraint firstAttribute="bottom" secondItem="As0-oF-GPE" secondAttribute="bottom" constant="20" id="ygs-Mp-89h"/>
+                                    <constraint firstAttribute="bottom" secondItem="As0-oF-GPE" secondAttribute="bottom" constant="40" id="ygs-Mp-89h"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="YaW-Pe-HbX"/>
                             </view>
@@ -440,7 +447,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="NDz-81-XUp"/>
                     <connections>
-                        <outlet property="customNavView" destination="ONC-PX-IdD" id="rEE-BB-2ac"/>
                         <outlet property="imageContainerView" destination="wrZ-eF-k4t" id="daj-rW-YqP"/>
                         <outlet property="imageView" destination="3zO-lr-M45" id="eNR-hC-o97"/>
                         <outlet property="table" destination="jTQ-sW-eyz" id="SDU-Wt-rqh"/>

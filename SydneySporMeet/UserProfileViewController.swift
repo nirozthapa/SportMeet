@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class UserProfileViewController: UIViewController,CustomNavigationBarDelegate,UITableViewDelegate,UITableViewDataSource {
+class UserProfileViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
@@ -55,8 +55,6 @@ class UserProfileViewController: UIViewController,CustomNavigationBarDelegate,UI
         super.viewDidLoad()
         print("User profile view controller is loaded")
         self.makeCircularImage()
-        self.CustomNavView.Customnavdelegate = self
-        self.view.bringSubviewToFront(CustomNavView)
         self.CustomNavView.lblHeading.text = ""
         self.CustomNavView.backgroundColor = UIColor.clear
     self.profileTableVIew.delegate = self

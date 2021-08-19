@@ -15,7 +15,6 @@ import IQKeyboardManagerSwift
 class ProfileViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate,UIGestureRecognizerDelegate,CustomNavigationBarDelegate{
     
     var refData: DatabaseReference!
-    @IBOutlet weak var customNavView: CustomNavView!
     @IBOutlet weak var table: UITableView!
     
     @IBOutlet weak var imageView: UIImageView!
@@ -61,11 +60,7 @@ class ProfileViewController: UIViewController,UINavigationControllerDelegate,UII
         table.register(UINib(nibName: "ProfileHeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "ProfileHeaderTableViewCell")
         table.register(UINib(nibName: "CustomNameLabelCellTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomNameLabelCellTableViewCell")
         table.register(UINib(nibName: "labelWithButtonTableViewCell", bundle: nil), forCellReuseIdentifier: "labelWithButtonTableViewCell")
-        definesPresentationContext = true
         
-        self.customNavView.Customnavdelegate = self
-        self.view.bringSubviewToFront(customNavView)
-        self.customNavView.lblHeading.text = ""
         
         
         table.separatorStyle = .none
@@ -77,6 +72,11 @@ class ProfileViewController: UIViewController,UINavigationControllerDelegate,UII
         
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.table.contentInset.bottom = view.safeAreaInsets.bottom
+        self.table.scrollIndicatorInsets.bottom = view.safeAreaInsets.bottom
+    }
     
     func imageSetup(){
         self.imageView.layer.borderWidth = 0
@@ -197,7 +197,6 @@ extension ProfileViewController:UITableViewDelegate,UITableViewDataSource{
             let cell = tableView.dequeueReusableCell(withIdentifier: "labelWithButtonTableViewCell") as! labelWithButtonTableViewCell
             cell.lblTitle.text = nextlabel[indexPath.row - 5]
             cell.btnSelect.tag = indexPath.row
-            cell.btnSelect.backgroundColor = UIColor.blue
             cell.btnSelect.addTarget(self, action:#selector(openPicker(sender:)), for: .touchUpInside)
             if(indexPath.row == 5){
                 cell.btnSelect.setTitle(dateString, for: .normal)
@@ -215,7 +214,6 @@ extension ProfileViewController:UITableViewDelegate,UITableViewDataSource{
         case 8:
             let cell = tableView.dequeueReusableCell(withIdentifier: "labelWithButtonTableViewCell") as! labelWithButtonTableViewCell
             cell.lblTitle.text = "SignUp"
-            cell.btnSelect.backgroundColor = UIColor.blue
             cell.btnSelect.addTarget(self, action:#selector(SignUp(sender:)), for: .touchUpInside)
             return cell
         default:
