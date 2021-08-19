@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1441B01D09A3FE40338D292A /* Pods_SydneySporMeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CBD4E67A3AB2CFD5B65BDC /* Pods_SydneySporMeetTests.framework */; };
+		37039E1526CAA2D200E969DD /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37039E1426CAA2D200E969DD /* DatePickerViewController.swift */; };
+		37039E1726CAA5E300E969DD /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37039E1626CAA5E300E969DD /* PopupViewController.swift */; };
+		37039E1926CAAA8300E969DD /* RoundCornerUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37039E1826CAAA8300E969DD /* RoundCornerUiView.swift */; };
+		37039E1B26CC958B00E969DD /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37039E1A26CC958B00E969DD /* DropDownViewController.swift */; };
+		37039E1F26CD042B00E969DD /* DropDownCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37039E1E26CD042B00E969DD /* DropDownCustomClass.swift */; };
+		370C2FF6225444AA003B7767 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C2FF5225444AA003B7767 /* DatePicker.swift */; };
+		370C2FFA22544613003B7767 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370C2FF922544613003B7767 /* DatePicker.xib */; };
+		370C2FFD225C1614003B7767 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C2FFC225C1614003B7767 /* User.swift */; };
+		370C2FFF225CBF6F003B7767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370C2FFE225CBF6D003B7767 /* GoogleService-Info.plist */; };
+		370C3002225D9DDA003B7767 /* UserProfileSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C3001225D9DDA003B7767 /* UserProfileSave.swift */; };
+		3723F2492260952E00C6FAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3723F2482260952E00C6FAFD /* Main.storyboard */; };
+		374841742235263C00A2D383 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841722235263C00A2D383 /* Toolbar.swift */; };
+		374841822235265D00A2D383 /* CustomEmailViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841762235265C00A2D383 /* CustomEmailViewCellTableViewCell.swift */; };
+		374841832235265D00A2D383 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374841772235265C00A2D383 /* DatePickerTableViewCell.xib */; };
+		374841842235265D00A2D383 /* CustomNameLabelCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374841782235265D00A2D383 /* CustomNameLabelCellTableViewCell.xib */; };
+		374841852235265D00A2D383 /* CustomEmailViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374841792235265D00A2D383 /* CustomEmailViewCellTableViewCell.xib */; };
+		374841862235265D00A2D383 /* labelWithButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3748417A2235265D00A2D383 /* labelWithButtonTableViewCell.xib */; };
+		374841872235265D00A2D383 /* CustomNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3748417B2235265D00A2D383 /* CustomNavView.xib */; };
+		374841882235265D00A2D383 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748417C2235265D00A2D383 /* CustomNavView.swift */; };
+		374841892235265D00A2D383 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748417D2235265D00A2D383 /* DatePickerTableViewCell.swift */; };
+		3748418A2235265D00A2D383 /* SignUpTableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3748417E2235265D00A2D383 /* SignUpTableViewHeaderCell.xib */; };
+		3748418B2235265D00A2D383 /* labelWithButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748417F2235265D00A2D383 /* labelWithButtonTableViewCell.swift */; };
+		3748418C2235265D00A2D383 /* SignUpTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841802235265D00A2D383 /* SignUpTableViewHeaderCell.swift */; };
+		3748418D2235265D00A2D383 /* CustomNameLabelCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841812235265D00A2D383 /* CustomNameLabelCellTableViewCell.swift */; };
+		374841902235266B00A2D383 /* ColorConsant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748418E2235266B00A2D383 /* ColorConsant.swift */; };
+		374841912235266B00A2D383 /* FontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748418F2235266B00A2D383 /* FontConstant.swift */; };
+		3748419E223B0EB600A2D383 /* UIPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748419C223B0EB600A2D383 /* UIPickerTableViewCell.swift */; };
+		3748419F223B0EB600A2D383 /* UIPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3748419D223B0EB600A2D383 /* UIPickerTableViewCell.xib */; };
+		374841A12240577800A2D383 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841A02240577800A2D383 /* ProfileViewController.swift */; };
+		374841A42240882700A2D383 /* ProfileHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841A22240882600A2D383 /* ProfileHeaderTableViewCell.swift */; };
+		374841A52240882700A2D383 /* ProfileHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374841A32240882700A2D383 /* ProfileHeaderTableViewCell.xib */; };
+		374841A82240C48C00A2D383 /* PersonalDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374841A62240C48C00A2D383 /* PersonalDetailTableViewCell.swift */; };
+		374841A92240C48C00A2D383 /* PersonalDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374841A72240C48C00A2D383 /* PersonalDetailTableViewCell.xib */; };
+		37782BC722485EC500107C99 /* ProfileTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782BC622485EC500107C99 /* ProfileTabbarController.swift */; };
+		37782BC922486AD100107C99 /* ProfileMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782BC822486AD100107C99 /* ProfileMatchViewController.swift */; };
+		37782BCB22498FF400107C99 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782BCA22498FF400107C99 /* UserProfileViewController.swift */; };
+		37782BCE224AC81700107C99 /* UserSportDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782BCC224AC81600107C99 /* UserSportDetailsTableViewCell.swift */; };
+		37782BCF224AC81700107C99 /* UserSportDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37782BCD224AC81700107C99 /* UserSportDetailsTableViewCell.xib */; };
+		379F04A82260856C008487CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379F04A72260856C008487CA /* Assets.xcassets */; };
+		37E820BC2235206E0048DEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E820BB2235206E0048DEAF /* AppDelegate.swift */; };
+		37E820C6223520700048DEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E820C4223520700048DEAF /* LaunchScreen.storyboard */; };
+		37E820D1223520700048DEAF /* SydneySporMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E820D0223520700048DEAF /* SydneySporMeetTests.swift */; };
+		37E820DC223520700048DEAF /* SydneySporMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E820DB223520700048DEAF /* SydneySporMeetUITests.swift */; };
+		949EC3C5226192CA0012B58B /* UserSignupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949EC3C4226192CA0012B58B /* UserSignupManager.swift */; };
+		949EC3C8226196070012B58B /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949EC3C7226196070012B58B /* KeyConstants.swift */; };
+		949EC3CC2261985A0012B58B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949EC3CB2261985A0012B58B /* UserManager.swift */; };
+		949EC3CD22619E670012B58B /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E820F0223520F40048DEAF /* SignUpTableViewController.swift */; };
+		949EC3CE22619E670012B58B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E820EF223520F40048DEAF /* LoginViewController.swift */; };
+		9720A1F74AF4BCD92CB3F27F /* Pods_SydneySporMeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1B3CC84669484A54C73FB /* Pods_SydneySporMeetUITests.framework */; };
+		CD944C34F9DBC8546179A6C5 /* Pods_SydneySporMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0D1B7CEA806AC9CBD38E86 /* Pods_SydneySporMeet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E820CD223520700048DEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E820B02235206E0048DEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E820B72235206E0048DEAF;
+			remoteInfo = SydneySporMeet;
+		};
+		37E820D8223520700048DEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E820B02235206E0048DEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E820B72235206E0048DEAF;
+			remoteInfo = SydneySporMeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25CBD4E67A3AB2CFD5B65BDC /* Pods_SydneySporMeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SydneySporMeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B1B3CC84669484A54C73FB /* Pods_SydneySporMeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SydneySporMeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37039E1426CAA2D200E969DD /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		37039E1626CAA5E300E969DD /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		37039E1826CAAA8300E969DD /* RoundCornerUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerUiView.swift; sourceTree = "<group>"; };
+		37039E1A26CC958B00E969DD /* DropDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
+		37039E1E26CD042B00E969DD /* DropDownCustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCustomClass.swift; sourceTree = "<group>"; };
+		370C2FF5225444AA003B7767 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		370C2FF922544613003B7767 /* DatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
+		370C2FFC225C1614003B7767 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		370C2FFE225CBF6D003B7767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		370C3001225D9DDA003B7767 /* UserProfileSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSave.swift; sourceTree = "<group>"; };
+		3723F2482260952E00C6FAFD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		374841722235263C00A2D383 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		374841762235265C00A2D383 /* CustomEmailViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomEmailViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		374841772235265C00A2D383 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		374841782235265D00A2D383 /* CustomNameLabelCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNameLabelCellTableViewCell.xib; sourceTree = "<group>"; };
+		374841792235265D00A2D383 /* CustomEmailViewCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomEmailViewCellTableViewCell.xib; sourceTree = "<group>"; };
+		3748417A2235265D00A2D383 /* labelWithButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = labelWithButtonTableViewCell.xib; sourceTree = "<group>"; };
+		3748417B2235265D00A2D383 /* CustomNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavView.xib; sourceTree = "<group>"; };
+		3748417C2235265D00A2D383 /* CustomNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		3748417D2235265D00A2D383 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		3748417E2235265D00A2D383 /* SignUpTableViewHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpTableViewHeaderCell.xib; sourceTree = "<group>"; };
+		3748417F2235265D00A2D383 /* labelWithButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labelWithButtonTableViewCell.swift; sourceTree = "<group>"; };
+		374841802235265D00A2D383 /* SignUpTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		374841812235265D00A2D383 /* CustomNameLabelCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNameLabelCellTableViewCell.swift; sourceTree = "<group>"; };
+		3748418E2235266B00A2D383 /* ColorConsant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConsant.swift; sourceTree = "<group>"; };
+		3748418F2235266B00A2D383 /* FontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstant.swift; sourceTree = "<group>"; };
+		3748419C223B0EB600A2D383 /* UIPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerTableViewCell.swift; sourceTree = "<group>"; };
+		3748419D223B0EB600A2D383 /* UIPickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIPickerTableViewCell.xib; sourceTree = "<group>"; };
+		374841A02240577800A2D383 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		374841A22240882600A2D383 /* ProfileHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		374841A32240882700A2D383 /* ProfileHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		374841A62240C48C00A2D383 /* PersonalDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailTableViewCell.swift; sourceTree = "<group>"; };
+		374841A72240C48C00A2D383 /* PersonalDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalDetailTableViewCell.xib; sourceTree = "<group>"; };
+		37782BC622485EC500107C99 /* ProfileTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabbarController.swift; sourceTree = "<group>"; };
+		37782BC822486AD100107C99 /* ProfileMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMatchViewController.swift; sourceTree = "<group>"; };
+		37782BCA22498FF400107C99 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		37782BCC224AC81600107C99 /* UserSportDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSportDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		37782BCD224AC81700107C99 /* UserSportDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSportDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		379F04A72260856C008487CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		37E820B82235206E0048DEAF /* SydneySporMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SydneySporMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E820BB2235206E0048DEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37E820C5223520700048DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E820C7223520700048DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E820CC223520700048DEAF /* SydneySporMeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SydneySporMeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E820D0223520700048DEAF /* SydneySporMeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SydneySporMeetTests.swift; sourceTree = "<group>"; };
+		37E820D2223520700048DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E820D7223520700048DEAF /* SydneySporMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SydneySporMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E820DB223520700048DEAF /* SydneySporMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SydneySporMeetUITests.swift; sourceTree = "<group>"; };
+		37E820DD223520700048DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E820EF223520F40048DEAF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37E820F0223520F40048DEAF /* SignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
+		3B4EB3D8A53501E4DD57D584 /* Pods-SydneySporMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeet.debug.xcconfig"; path = "Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet.debug.xcconfig"; sourceTree = "<group>"; };
+		4E03552035149F8BF9F77DB0 /* Pods-SydneySporMeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeetTests.release.xcconfig"; path = "Target Support Files/Pods-SydneySporMeetTests/Pods-SydneySporMeetTests.release.xcconfig"; sourceTree = "<group>"; };
+		88271D4658B1ABC968C1DD50 /* Pods-SydneySporMeetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeetTests.debug.xcconfig"; path = "Target Support Files/Pods-SydneySporMeetTests/Pods-SydneySporMeetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		949EC3C4226192CA0012B58B /* UserSignupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupManager.swift; sourceTree = "<group>"; };
+		949EC3C7226196070012B58B /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		949EC3CB2261985A0012B58B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		9B6ED1370AA0236238871E01 /* Pods-SydneySporMeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeetUITests.debug.xcconfig"; path = "Target Support Files/Pods-SydneySporMeetUITests/Pods-SydneySporMeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7DC4D826C95E5B00ED5DBA /* Pods-SydneySporMeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeetUITests.release.xcconfig"; path = "Target Support Files/Pods-SydneySporMeetUITests/Pods-SydneySporMeetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E36A441DDAD0FB01B207E0CF /* Pods-SydneySporMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SydneySporMeet.release.xcconfig"; path = "Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet.release.xcconfig"; sourceTree = "<group>"; };
+		EF0D1B7CEA806AC9CBD38E86 /* Pods_SydneySporMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SydneySporMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E820B52235206E0048DEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD944C34F9DBC8546179A6C5 /* Pods_SydneySporMeet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820C9223520700048DEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441B01D09A3FE40338D292A /* Pods_SydneySporMeetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820D4223520700048DEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720A1F74AF4BCD92CB3F27F /* Pods_SydneySporMeetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370C2FFB225C15EE003B7767 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				370C2FFC225C1614003B7767 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		370C3000225D9DB8003B7767 /* FirebaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				370C3001225D9DDA003B7767 /* UserProfileSave.swift */,
+				949EC3C4226192CA0012B58B /* UserSignupManager.swift */,
+			);
+			name = FirebaseHelper;
+			path = ../FirebaseHelper;
+			sourceTree = "<group>";
+		};
+		3723F2462260932A00C6FAFD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				374841762235265C00A2D383 /* CustomEmailViewCellTableViewCell.swift */,
+				374841792235265D00A2D383 /* CustomEmailViewCellTableViewCell.xib */,
+				374841812235265D00A2D383 /* CustomNameLabelCellTableViewCell.swift */,
+				374841782235265D00A2D383 /* CustomNameLabelCellTableViewCell.xib */,
+				3748417C2235265D00A2D383 /* CustomNavView.swift */,
+				3748417B2235265D00A2D383 /* CustomNavView.xib */,
+				370C2FF5225444AA003B7767 /* DatePicker.swift */,
+				3748417D2235265D00A2D383 /* DatePickerTableViewCell.swift */,
+				374841772235265C00A2D383 /* DatePickerTableViewCell.xib */,
+				3748417F2235265D00A2D383 /* labelWithButtonTableViewCell.swift */,
+				3748417A2235265D00A2D383 /* labelWithButtonTableViewCell.xib */,
+				374841802235265D00A2D383 /* SignUpTableViewHeaderCell.swift */,
+				3748417E2235265D00A2D383 /* SignUpTableViewHeaderCell.xib */,
+				3748419C223B0EB600A2D383 /* UIPickerTableViewCell.swift */,
+				3748419D223B0EB600A2D383 /* UIPickerTableViewCell.xib */,
+				374841A22240882600A2D383 /* ProfileHeaderTableViewCell.swift */,
+				374841A32240882700A2D383 /* ProfileHeaderTableViewCell.xib */,
+				374841A62240C48C00A2D383 /* PersonalDetailTableViewCell.swift */,
+				374841A72240C48C00A2D383 /* PersonalDetailTableViewCell.xib */,
+				37782BCC224AC81600107C99 /* UserSportDetailsTableViewCell.swift */,
+				37782BCD224AC81700107C99 /* UserSportDetailsTableViewCell.xib */,
+				370C2FF922544613003B7767 /* DatePicker.xib */,
+			);
+			name = CustomViews;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3723F2472260936F00C6FAFD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3748418E2235266B00A2D383 /* ColorConsant.swift */,
+				3748418F2235266B00A2D383 /* FontConstant.swift */,
+				374841722235263C00A2D383 /* Toolbar.swift */,
+				37039E1826CAAA8300E969DD /* RoundCornerUiView.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		37E820AF2235206E0048DEAF = {
+			isa = PBXGroup;
+			children = (
+				37E820BA2235206E0048DEAF /* SydneySporMeet */,
+				37E820CF223520700048DEAF /* SydneySporMeetTests */,
+				37E820DA223520700048DEAF /* SydneySporMeetUITests */,
+				37E820B92235206E0048DEAF /* Products */,
+				9C8C64CC67822438356A8AE4 /* Pods */,
+				E2940452A84E3EA2CCEC8D7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37E820B92235206E0048DEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E820B82235206E0048DEAF /* SydneySporMeet.app */,
+				37E820CC223520700048DEAF /* SydneySporMeetTests.xctest */,
+				37E820D7223520700048DEAF /* SydneySporMeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E820BA2235206E0048DEAF /* SydneySporMeet */ = {
+			isa = PBXGroup;
+			children = (
+				949EC3C6226195FA0012B58B /* Constants */,
+				3723F2472260936F00C6FAFD /* extension */,
+				3723F2462260932A00C6FAFD /* CustomViews */,
+				370C2FFB225C15EE003B7767 /* Models */,
+				949EC3C9226198400012B58B /* Managers */,
+				370C2FFE225CBF6D003B7767 /* GoogleService-Info.plist */,
+				379F04A72260856C008487CA /* Assets.xcassets */,
+				374841A02240577800A2D383 /* ProfileViewController.swift */,
+				3723F2482260952E00C6FAFD /* Main.storyboard */,
+				37E820F0223520F40048DEAF /* SignUpTableViewController.swift */,
+				37E820EF223520F40048DEAF /* LoginViewController.swift */,
+				37E820BB2235206E0048DEAF /* AppDelegate.swift */,
+				37E820C4223520700048DEAF /* LaunchScreen.storyboard */,
+				37E820C7223520700048DEAF /* Info.plist */,
+				37782BC622485EC500107C99 /* ProfileTabbarController.swift */,
+				37782BC822486AD100107C99 /* ProfileMatchViewController.swift */,
+				37782BCA22498FF400107C99 /* UserProfileViewController.swift */,
+			);
+			path = SydneySporMeet;
+			sourceTree = "<group>";
+		};
+		37E820CF223520700048DEAF /* SydneySporMeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E820D0223520700048DEAF /* SydneySporMeetTests.swift */,
+				37E820D2223520700048DEAF /* Info.plist */,
+			);
+			path = SydneySporMeetTests;
+			sourceTree = "<group>";
+		};
+		37E820DA223520700048DEAF /* SydneySporMeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E820DB223520700048DEAF /* SydneySporMeetUITests.swift */,
+				37E820DD223520700048DEAF /* Info.plist */,
+			);
+			path = SydneySporMeetUITests;
+			sourceTree = "<group>";
+		};
+		949EC3C6226195FA0012B58B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				949EC3C7226196070012B58B /* KeyConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		949EC3C9226198400012B58B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				949EC3CA2261984C0012B58B /* UserManager */,
+				370C3000225D9DB8003B7767 /* FirebaseHelper */,
+				37039E1426CAA2D200E969DD /* DatePickerViewController.swift */,
+				37039E1A26CC958B00E969DD /* DropDownViewController.swift */,
+				37039E1626CAA5E300E969DD /* PopupViewController.swift */,
+				37039E1E26CD042B00E969DD /* DropDownCustomClass.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		949EC3CA2261984C0012B58B /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				949EC3CB2261985A0012B58B /* UserManager.swift */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		9C8C64CC67822438356A8AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4EB3D8A53501E4DD57D584 /* Pods-SydneySporMeet.debug.xcconfig */,
+				E36A441DDAD0FB01B207E0CF /* Pods-SydneySporMeet.release.xcconfig */,
+				88271D4658B1ABC968C1DD50 /* Pods-SydneySporMeetTests.debug.xcconfig */,
+				4E03552035149F8BF9F77DB0 /* Pods-SydneySporMeetTests.release.xcconfig */,
+				9B6ED1370AA0236238871E01 /* Pods-SydneySporMeetUITests.debug.xcconfig */,
+				CD7DC4D826C95E5B00ED5DBA /* Pods-SydneySporMeetUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2940452A84E3EA2CCEC8D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D1B7CEA806AC9CBD38E86 /* Pods_SydneySporMeet.framework */,
+				25CBD4E67A3AB2CFD5B65BDC /* Pods_SydneySporMeetTests.framework */,
+				26B1B3CC84669484A54C73FB /* Pods_SydneySporMeetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E820B72235206E0048DEAF /* SydneySporMeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E820E0223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeet" */;
+			buildPhases = (
+				C36CCDC4E7D513D3BA40F1CF /* [CP] Check Pods Manifest.lock */,
+				37E820B42235206E0048DEAF /* Sources */,
+				37E820B52235206E0048DEAF /* Frameworks */,
+				37E820B62235206E0048DEAF /* Resources */,
+				96B946CADA3DE7C0D325D838 /* [CP] Embed Pods Frameworks */,
+				8D8CD99EAFADC7FD9515C2B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SydneySporMeet;
+			productName = SydneySporMeet;
+			productReference = 37E820B82235206E0048DEAF /* SydneySporMeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E820CB223520700048DEAF /* SydneySporMeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E820E3223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeetTests" */;
+			buildPhases = (
+				B77A874CDFC3AF0A1A367F0F /* [CP] Check Pods Manifest.lock */,
+				37E820C8223520700048DEAF /* Sources */,
+				37E820C9223520700048DEAF /* Frameworks */,
+				37E820CA223520700048DEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E820CE223520700048DEAF /* PBXTargetDependency */,
+			);
+			name = SydneySporMeetTests;
+			productName = SydneySporMeetTests;
+			productReference = 37E820CC223520700048DEAF /* SydneySporMeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E820D6223520700048DEAF /* SydneySporMeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E820E6223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeetUITests" */;
+			buildPhases = (
+				8BE96D9094D3F129812B5A57 /* [CP] Check Pods Manifest.lock */,
+				37E820D3223520700048DEAF /* Sources */,
+				37E820D4223520700048DEAF /* Frameworks */,
+				37E820D5223520700048DEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E820D9223520700048DEAF /* PBXTargetDependency */,
+			);
+			name = SydneySporMeetUITests;
+			productName = SydneySporMeetUITests;
+			productReference = 37E820D7223520700048DEAF /* SydneySporMeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E820B02235206E0048DEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Niroj Thapa";
+				TargetAttributes = {
+					37E820B72235206E0048DEAF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37E820CB223520700048DEAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 37E820B72235206E0048DEAF;
+					};
+					37E820D6223520700048DEAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 37E820B72235206E0048DEAF;
+					};
+				};
+			};
+			buildConfigurationList = 37E820B32235206E0048DEAF /* Build configuration list for PBXProject "SydneySporMeet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E820AF2235206E0048DEAF;
+			productRefGroup = 37E820B92235206E0048DEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E820B72235206E0048DEAF /* SydneySporMeet */,
+				37E820CB223520700048DEAF /* SydneySporMeetTests */,
+				37E820D6223520700048DEAF /* SydneySporMeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E820B62235206E0048DEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374841832235265D00A2D383 /* DatePickerTableViewCell.xib in Resources */,
+				3748419F223B0EB600A2D383 /* UIPickerTableViewCell.xib in Resources */,
+				370C2FFF225CBF6F003B7767 /* GoogleService-Info.plist in Resources */,
+				370C2FFA22544613003B7767 /* DatePicker.xib in Resources */,
+				374841872235265D00A2D383 /* CustomNavView.xib in Resources */,
+				374841862235265D00A2D383 /* labelWithButtonTableViewCell.xib in Resources */,
+				374841A92240C48C00A2D383 /* PersonalDetailTableViewCell.xib in Resources */,
+				37E820C6223520700048DEAF /* LaunchScreen.storyboard in Resources */,
+				37782BCF224AC81700107C99 /* UserSportDetailsTableViewCell.xib in Resources */,
+				3748418A2235265D00A2D383 /* SignUpTableViewHeaderCell.xib in Resources */,
+				3723F2492260952E00C6FAFD /* Main.storyboard in Resources */,
+				374841A52240882700A2D383 /* ProfileHeaderTableViewCell.xib in Resources */,
+				374841852235265D00A2D383 /* CustomEmailViewCellTableViewCell.xib in Resources */,
+				379F04A82260856C008487CA /* Assets.xcassets in Resources */,
+				374841842235265D00A2D383 /* CustomNameLabelCellTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820CA223520700048DEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820D5223520700048DEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE96D9094D3F129812B5A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SydneySporMeetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8CD99EAFADC7FD9515C2B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B946CADA3DE7C0D325D838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SydneySporMeet/Pods-SydneySporMeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77A874CDFC3AF0A1A367F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SydneySporMeetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36CCDC4E7D513D3BA40F1CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SydneySporMeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E820B42235206E0048DEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949EC3CD22619E670012B58B /* SignUpTableViewController.swift in Sources */,
+				37039E1F26CD042B00E969DD /* DropDownCustomClass.swift in Sources */,
+				949EC3CE22619E670012B58B /* LoginViewController.swift in Sources */,
+				374841A42240882700A2D383 /* ProfileHeaderTableViewCell.swift in Sources */,
+				37782BCB22498FF400107C99 /* UserProfileViewController.swift in Sources */,
+				374841A82240C48C00A2D383 /* PersonalDetailTableViewCell.swift in Sources */,
+				374841822235265D00A2D383 /* CustomEmailViewCellTableViewCell.swift in Sources */,
+				370C2FFD225C1614003B7767 /* User.swift in Sources */,
+				37782BCE224AC81700107C99 /* UserSportDetailsTableViewCell.swift in Sources */,
+				374841902235266B00A2D383 /* ColorConsant.swift in Sources */,
+				37039E1B26CC958B00E969DD /* DropDownViewController.swift in Sources */,
+				370C2FF6225444AA003B7767 /* DatePicker.swift in Sources */,
+				37E820BC2235206E0048DEAF /* AppDelegate.swift in Sources */,
+				374841912235266B00A2D383 /* FontConstant.swift in Sources */,
+				3748419E223B0EB600A2D383 /* UIPickerTableViewCell.swift in Sources */,
+				37039E1926CAAA8300E969DD /* RoundCornerUiView.swift in Sources */,
+				374841742235263C00A2D383 /* Toolbar.swift in Sources */,
+				370C3002225D9DDA003B7767 /* UserProfileSave.swift in Sources */,
+				37039E1526CAA2D200E969DD /* DatePickerViewController.swift in Sources */,
+				374841882235265D00A2D383 /* CustomNavView.swift in Sources */,
+				949EC3C8226196070012B58B /* KeyConstants.swift in Sources */,
+				949EC3CC2261985A0012B58B /* UserManager.swift in Sources */,
+				3748418B2235265D00A2D383 /* labelWithButtonTableViewCell.swift in Sources */,
+				3748418C2235265D00A2D383 /* SignUpTableViewHeaderCell.swift in Sources */,
+				949EC3C5226192CA0012B58B /* UserSignupManager.swift in Sources */,
+				374841A12240577800A2D383 /* ProfileViewController.swift in Sources */,
+				37782BC722485EC500107C99 /* ProfileTabbarController.swift in Sources */,
+				3748418D2235265D00A2D383 /* CustomNameLabelCellTableViewCell.swift in Sources */,
+				37039E1726CAA5E300E969DD /* PopupViewController.swift in Sources */,
+				37782BC922486AD100107C99 /* ProfileMatchViewController.swift in Sources */,
+				374841892235265D00A2D383 /* DatePickerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820C8223520700048DEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E820D1223520700048DEAF /* SydneySporMeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E820D3223520700048DEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E820DC223520700048DEAF /* SydneySporMeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E820CE223520700048DEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E820B72235206E0048DEAF /* SydneySporMeet */;
+			targetProxy = 37E820CD223520700048DEAF /* PBXContainerItemProxy */;
+		};
+		37E820D9223520700048DEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E820B72235206E0048DEAF /* SydneySporMeet */;
+			targetProxy = 37E820D8223520700048DEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37E820C4223520700048DEAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E820C5223520700048DEAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E820DE223520700048DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37E820DF223520700048DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E820E1223520700048DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4EB3D8A53501E4DD57D584 /* Pods-SydneySporMeet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37E820E2223520700048DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36A441DDAD0FB01B207E0CF /* Pods-SydneySporMeet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37E820E4223520700048DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88271D4658B1ABC968C1DD50 /* Pods-SydneySporMeetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SydneySporMeet.app/SydneySporMeet";
+			};
+			name = Debug;
+		};
+		37E820E5223520700048DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E03552035149F8BF9F77DB0 /* Pods-SydneySporMeetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SydneySporMeet.app/SydneySporMeet";
+			};
+			name = Release;
+		};
+		37E820E7223520700048DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6ED1370AA0236238871E01 /* Pods-SydneySporMeetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SydneySporMeet;
+			};
+			name = Debug;
+		};
+		37E820E8223520700048DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7DC4D826C95E5B00ED5DBA /* Pods-SydneySporMeetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SydneySporMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Niroj.SydneySporMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SydneySporMeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E820B32235206E0048DEAF /* Build configuration list for PBXProject "SydneySporMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E820DE223520700048DEAF /* Debug */,
+				37E820DF223520700048DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E820E0223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E820E1223520700048DEAF /* Debug */,
+				37E820E2223520700048DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E820E3223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E820E4223520700048DEAF /* Debug */,
+				37E820E5223520700048DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E820E6223520700048DEAF /* Build configuration list for PBXNativeTarget "SydneySporMeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E820E7223520700048DEAF /* Debug */,
+				37E820E8223520700048DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E820B02235206E0048DEAF /* Project object */;
+}
